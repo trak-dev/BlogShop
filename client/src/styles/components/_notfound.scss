@@ -1,0 +1,66 @@
+.notfound{
+background-position: top right;
+background-repeat: no-repeat;
+background-size: 25px 100%;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  max-width: 900px;
+  width: 100%;
+  padding: $md;
+  cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/4424790/cursors-edge.png"),
+  auto;
+  
+  img {
+    display: block;
+    height: auto;
+    width: 500px;
+    align-items: center;
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/4424790/right-edges.png");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 25px 100%;
+  background-color: white;
+  margin-right: 15%;
+  margin-left: 30%;
+ 
+    }
+  
+.main {
+  text-align: center;
+  h1 {
+    font-family: "Fontdiner Swanky", cursive;
+    font-size: $lg;
+    color: $lime;
+    margin-bottom: $sm;
+  }
+  p {
+    margin-bottom: $md;
+    em {
+      font-style: italic;
+      color: $lime;
+    }
+  }
+  button {
+    font-family: "Fontdiner Swanky", cursive;
+    font-size: $sm;
+    color: $seed;
+    border: none;
+    background-color: $rasp;
+    padding: $sm $md;
+    transform: skew(-5deg);
+    transition: all 0.1s ease;
+    cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/4424790/cursors-eye.png"),
+      auto;
+    &:hover {
+      background-color: $lime;
+      transform: scale(1.15);
+    }
+  }
+  
+}
+
+}
+
