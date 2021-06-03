@@ -18,7 +18,7 @@ const SignUpForm = () => {
             <input type="text" name="password" />
             <div className="password error"></div>
             <br/>
-
+            <button><img src="./img/google.png" alt="Se connecter avec Google" id="pngGoogole" onClick="" />S'inscrire avec Google</button>
             <input type="submit" value="Valider inscription"/>
         </form>
     );

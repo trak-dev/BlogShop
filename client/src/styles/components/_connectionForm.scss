@@ -6,15 +6,18 @@
   user-select: none;
   text-align: center;
   background-color: $color-2;
+  color : #170d53; 
 
   h3 {
     padding: 10px 0 15px;
+    background-color: $color-2;
   }
 
   ul {
     padding: 10px;
     display: flex;
     justify-content: space-around;
+    background-color: $color-2;
 
     li {
       background: $color-2;
@@ -25,19 +28,22 @@
       cursor: pointer;
       transition: 0.3s;
       box-shadow: 3px 3px 1px rgba(51, 51, 51, 0.418);
+      color : #170d53; 
 
       &:hover {
         background: $color-1;
+        color :$color-2; 
       }
     }
   }
   .active-btn {
     background: $color-1;
+    color :$color-2; 
   }
   form {
     width: 400px;
-    margin: 10px auto 0;
     padding: 20px;
+    background-color: $color-2;
 
   }
 }

@@ -7,14 +7,14 @@
       padding: 10px;
       border-radius: 4px;
       position: relative;
-      color:$color-2;
+      color:white;
     }
     .nav-active {
       &::after {
         content: "";
         width: 85%;
         height: 5px;
-        background: $color-4;
+        background: #9370DB; 
         position: absolute;
         bottom: 1px;
         left: 50%;
